@@ -1,0 +1,272 @@
+body {
+	margin: 0;
+	font-family: Arial;
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #333333;
+	text-decoration: none;
+}
+/* LAYOUT */
+#div-header, #div-main-content, #div-footer {
+	width: 1160px;
+	margin: 0 auto;
+}
+/* HEADER */
+#div-header-wrap {
+	background-color: #FFB400;
+}
+#div-header {
+	background-image: url('../images/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	position: relative;
+    bottom: -43px;
+}
+#div-header-logo {
+	float: left;
+}
+#div-header-logo h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #ffffff;
+}
+#div-header-logo h2 {
+	font-size: 26px;
+	display: inline-block;
+	margin-top: 50px;
+	color: #ffffff;
+	font-style: italic;
+}
+#div-header-search {
+	float: right;
+}
+#div-header-search input {
+	margin-top: 73px;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border-style: none;
+}
+#div-header-top {
+	margin-bottom: 30px;
+}
+#div-header-menu {
+	padding: 15px 0 0 0;
+}
+#div-header-menu li {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 15px;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+}
+#div-header-menu li a {
+	padding: 10px 15px;
+	display: block;
+}
+#div-header-menu li a:hover, #div-header-menu li a.current {
+	background-color: #FFB400;
+	color: #ffffff;
+}
+#div-header-menu ul li ul li {
+	display: block;
+}
+#div-header-menu ul li ul {
+	position: absolute;
+	left: 0;
+	top: 39px;
+	z-index: 9999;
+	background-color: #FFB400;
+	display: none;
+	width: 150px;
+}
+#div-header-menu li:hover ul {
+	display: block;
+}
+/* CONTENT */
+#div-main-content-wrap {
+	position: relative;
+	margin-top: 80px; 
+}
+#div-content {
+	float: left;
+	width: 68%;
+	position: relative;
+}
+#div-sidebar {
+	float: right;
+	width: 28%;
+}
+.div-post {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #c3c3c3; 
+}
+.div-post h1 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.div-post h2 {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+.div-post-txt img {
+	float: left;
+	margin-right: 20px;
+	border: 5px solid #333333;
+}
+.div-post p {
+	text-align: justify;
+	font-size: 17px;
+	line-height: 26px;
+}
+/* SIDEBAR */
+.div-widget {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-bottom: solid 1px #c3c3c3;
+	padding-bottom: 20px;
+}
+.div-widget ul {
+	margin-left: 20px;
+}
+.div-widget li {
+	margin-bottom: 5px;
+}
+.div-widget h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+/* FOOTER */
+#div-footer-wrap {
+	background-color: #FFB400;
+}
+#div-footer {
+	padding: 40px 0;
+}
+#div-footer p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: #ffffff;
+}
+/* absolute position */
+#div-box-wrap {
+	position: relative;
+}
+#div-box1 {
+	width: 300px;
+	height: 400px;
+	background-color: red;
+	color: #ffffff;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+#div-box2 {
+	width: 300px;
+	height: 400px;
+	background-color: blue;
+	color: #ffffff;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	z-index: 1;
+}
+/* ABOUT US */
+.div-post-txt1 img {
+	width: 780px;
+	height: 200px;
+}
+#box-wrap {
+	margin: 30px 0;
+}
+#box1 {
+	float: left;
+	width: 45%;
+	margin-right: 35px;
+}
+#box2 {
+	float: right;
+	width: 45%;
+}
+/* CONTACT */
+#div-post1-left {
+	float: left;
+	width: 40%;
+}
+#div-post1-right {
+	float: right;
+	width: 35%;
+}
+#div-post1-right img {
+	width: 135px;
+	height: 150px;
+}
+#div-post2 {
+	margin-top: 30px;
+}
+#div-post2-1 {
+	float: left;
+	width: 30%;
+	margin-right: 40px;
+}
+#div-post2-2 {
+	float: left;
+	width: 30%;
+}
+#div-post2-3 {
+	float: right;
+	width: 30%;
+	margin-left: 5px;
+}
+/* BLOG */
+#div-post-top img {
+	width:100%;
+}
+#div-post-top1 {
+	float: left;
+	width: 30%;
+	margin-right: 40px;
+}
+#div-post-top2 {
+	float: left;
+	width: 30%;
+}
+#div-post-top3 {
+	float: right;
+	width: 30%;
+}
+#div-post-bottom {
+	margin-top: 40px;
+}
+#div-post-bottom img {
+	width:100%;
+}
+#div-post-bottom1 {
+	float: left;
+	width: 30%;
+	margin-right: 40px;
+}
+#div-post-bottom2 {
+	float: left;
+	width: 30%;
+}
+#div-post-bottom3 {
+	float: right;
+	width: 30%;
+}
+/* GALLERY */
+#div-gallery img {
+	width: 250px;
+	height: 190px;
+	margin-right: 5px;
+}
